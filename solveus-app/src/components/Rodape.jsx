@@ -1,10 +1,11 @@
 import React from 'react';
+import { DivRodape } from '../style/styled';
 
 function Rodape() {
   return(
-    <div>
+    <DivRodape>
         <p>Todos os direitos reservados a SolveUS.</p>
-    </div>
+    </DivRodape>
   )
 }
 

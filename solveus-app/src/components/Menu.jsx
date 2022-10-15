@@ -1,10 +1,13 @@
 import React from 'react';
+import { DivMenu, LogoMenu } from '../style/styled';
 
 function Menu() {
+
+
   return(
-    <div>
-        <h1>SolveUS</h1>
-    </div>
+    <DivMenu>
+        <LogoMenu>SolveUS</LogoMenu>
+    </DivMenu>
   )
 }
 
